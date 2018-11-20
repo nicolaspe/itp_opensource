@@ -2,7 +2,7 @@
 
 I tried setting up an instance of organizer.network, and ran into some issues along the way. In the end, the setup did not work, so I hope this helps clear questions, help update the tutorial and solve future issues.
 
-- I didn’t know how to create the public key (used (GitHub’s tutorial)[https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent])
+- I didn’t know how to create the public key used [GitHub’s tutorial](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent))
 - I got some weird messages when updating the server machine
 ![weird message](01_1message.png)
 - One point of confusion is when cloning the repository. We are told to create the folder `/var/www/organizer.network` but when going in and cloning the repo, it is created in `organizer.network/organizer.network`, so the instruction should be changed to (after cloning) go to `./organizer.network/setup/`
